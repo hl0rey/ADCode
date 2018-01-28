@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <bug_name>session验证绕过</bug_name>
+     <id>3</id>
+    <author>hl0rey</author>
+    <type>regmatchall</type>
+    <regs>
+        <reg>session_start()</reg>
+        <reg>==.*\$\_SESSION\[\'.*\'\]</reg>
+    </regs>
+    <tips>删除cookies或者删除cookies的值</tips>
+    <note_id>-1</note_id>
+</rule>

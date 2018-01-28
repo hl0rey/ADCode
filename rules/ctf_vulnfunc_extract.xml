@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <bug_name>extract变量覆盖</bug_name>
+     <id>1</id>
+    <author>hl0rey</author>
+    <type>vulnfunc</type>
+    <funcname>extract</funcname>
+    <tips>extract变量覆盖</tips>
+    <note_id>-1</note_id>
+</rule>

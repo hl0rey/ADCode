@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <hug_name>ereg正则匹配缺陷</hug_name>
+     <id>0</id>
+    <author>hl0rey</author>
+    <type>vulnfunc</type>
+    <funcname>ereg,eregi</funcname>
+    <tips>用数组绕过，ereg是处理字符串，传入数组之后，ereg是返回NULL，%00截断绕过</tips>
+    <note_id>-1</note_id>
+</rule>
