@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b89ec32-c598-439a-9a31-5ea1fb9398a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ADC/ADCode.py" afterPath="$PROJECT_DIR$/ADC/ADCode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hl-1.md" afterPath="$PROJECT_DIR$/note/hl-1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hl-2.md" afterPath="$PROJECT_DIR$/note/hl-2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml" afterPath="$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml" afterPath="$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" />
-    </list>
+    <list default="true" id="2b89ec32-c598-439a-9a31-5ea1fb9398a4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
