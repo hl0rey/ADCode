@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rule>
-    <hug_name>strpos函数缺陷</hug_name>
+    <bug_name>strpos函数缺陷</bug_name>
      <id>0</id>
     <author>hl0rey</author>
     <type>vulnfunc</type>

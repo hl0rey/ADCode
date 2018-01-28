@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rule>
-    <hug_name>ereg正则匹配缺陷</hug_name>
-     <id>0</id>
+    <bug_name>ereg正则匹配缺陷</bug_name>
+     <id>5</id>
     <author>hl0rey</author>
     <type>vulnfunc</type>
     <funcname>ereg,eregi</funcname>

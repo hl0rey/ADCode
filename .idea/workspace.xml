@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b89ec32-c598-439a-9a31-5ea1fb9398a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_varconvery.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_extract.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ADC/ADCode.py" afterPath="$PROJECT_DIR$/ADC/ADCode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hl-1.md" afterPath="$PROJECT_DIR$/note/hl-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hl-2.md" afterPath="$PROJECT_DIR$/note/hl-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml" afterPath="$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml" afterPath="$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" afterPath="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ADCode$adcode.coverage" NAME="adcode Coverage Results" MODIFIED="1517130875368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ADCode$adcode.coverage" NAME="adcode Coverage Results" MODIFIED="1517140975471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ADCode$ADCode.coverage" NAME="ADCode Coverage Results" MODIFIED="1517129031594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ADC" />
   </component>
   <component name="FavoritesManager">
@@ -26,26 +30,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adcode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adcode.py">
+      <file leaf-file-name="ctf_vulnfunc_varconvery.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_varconvery.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding>
-                <element signature="e#81#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rulesutils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/rulesutils.py">
+      <file leaf-file-name="ctf_vulnfunc_ereg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding>
-                <element signature="e#41#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ctf_vulnfunc_intval.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,21 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctf_vulnfunc_ereg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml">
+      <file leaf-file-name="ctf_regmatchall_numcmp.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="54">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctf_vulnfunc_strcmp.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml">
+      <file leaf-file-name="ctf_keywords_weaktype.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="54">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -83,38 +93,18 @@
       <file leaf-file-name="ctf_vulnfunc_hash.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="54">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctf_vulnfunc_strpos.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ctf_vulnfunc_varconvery.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_varconvery.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ADCode.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ADCode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ADC/ADCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="332">
+              <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
               <folding>
                 <element signature="e#41#50#0" expanded="true" />
               </folding>
@@ -122,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules/__init__.py">
+      <file leaf-file-name="ctf_vulnfunc_strpos.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ctf_vulnfunc_strcmp.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -166,11 +166,18 @@
         <option value="$PROJECT_DIR$/rules/ctf_regmatchall_unsetsession.xml" />
         <option value="$PROJECT_DIR$/adcode.py" />
         <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_extract.xml" />
-        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" />
-        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" />
-        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" />
-        <option value="$PROJECT_DIR$/ADC/ADCode.py" />
         <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml" />
+        <option value="$PROJECT_DIR$/note/hl-1" />
+        <option value="$PROJECT_DIR$/note/hl-1.md" />
+        <option value="$PROJECT_DIR$/note/hl-2.md" />
+        <option value="$PROJECT_DIR$/rules/ctf_regmatchall_hexconversion.xml" />
+        <option value="$PROJECT_DIR$/ADC/ADCode.py" />
+        <option value="$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml" />
+        <option value="$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml" />
+        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml" />
+        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml" />
+        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml" />
+        <option value="$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml" />
       </list>
     </option>
   </component>
@@ -460,53 +467,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/note/hl-2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hl-1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="224">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#81#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_varconvery.xml">
+    <entry file="file://$PROJECT_DIR$/ADC/ADCode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="332">
+          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="e#41#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,13 +511,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ADC/ADCode.py">
+    <entry file="file://$PROJECT_DIR$/rules/ctf_regmatchall_numcmp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_keywords_weaktype.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_ereg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_hash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_intval.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_varconvery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strpos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules/ctf_vulnfunc_strcmp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

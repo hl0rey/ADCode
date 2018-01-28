@@ -23,6 +23,9 @@ class ADCode:
         if type == "keywords":
             return 3
 
+        if type=="regmatchonce":
+            return 4
+
         return False
 
     def vulnfunc(self):
@@ -44,6 +47,7 @@ class ADCode:
                 print("\n")
         return
 
+
     def regmatchall(self):
         #print("reg")
         regs = self.rule.regs.stripped_strings
@@ -58,7 +62,7 @@ class ADCode:
 
     def keywords(self):
         #print("keywords")
-        key = self.rule.keywords
+        key = self.rule.keywords.text
         if "," in key:
             keys=key.split(",")
             for k in keys:
@@ -66,8 +70,24 @@ class ADCode:
                     print("发现关键词："+k+"\n")
                     output.printrule(self.rule)
                     print("\n")
+        else:
+            if self.content.find(key):
+                print("发现关键词：" + key + "\n")
+                output.printrule(self.rule)
+                print("\n")
 
         return
+
+    def regmatchonce(self):
+        regs = self.rule.regs.stripped_strings
+        for ms in regs:
+            if re.search(ms, self.content):
+                output.good("发现可能有问题的代码！\n")
+                output.printrule(self.rule)
+                print("\n")
+
+        return
+
 
     def check(self):
         #print("do check!\n")
@@ -79,7 +99,8 @@ class ADCode:
             self.regmatchall()
         if t == 3:
             self.keywords()
-
+        if t==4:
+            self.regmatchonce()
 
 class output:
     def good(content):
@@ -100,5 +121,6 @@ class output:
         print("----id:" + content.id.text)
         print("----author:" + content.author.text)
         print("----tips:" + content.tips.text)
-        print("----note_id:"+content.note_id.text)
+        if not content.note_id.text=="-1":
+            print("----note_id:"+content.note_id.text)
         print("--------")

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rule>
-    <hug_name>strpos函数缺陷</hug_name>
-     <id>0</id>
+    <bug_name>==和===的问题</bug_name>
+     <id>4</id>
     <author>hl0rey</author>
-    <type>vulnfunc</type>
-    <funcname>strpos</funcname>
-    <tips>strpos处理数组，返回NULL</tips>
-    <note_id>-1</note_id>
+    <type>keywords</type>
+    <keywords>==,===</keywords>
+    <tips>==是比较运算，它不会去检查条件式的表达式的类型。===是恒等，它会检查查表达式的值与类型是否相等。NULL,0,"0",array()使用==和false比较时，都是会返回true的，而使用===却不会</tips>
+    <note_id>hl-1</note_id>
 </rule>

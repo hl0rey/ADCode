@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rule>
-    <bug_name>==和===的问题</bug_name>
-     <id>0</id>
+    <bug_name>intval函数缺陷</bug_name>
+     <id>7</id>
     <author>hl0rey</author>
-    <type>keywords</type>
-    <funcname>==,===</funcname>
-    <tips>==是比较运算，它不会去检查条件式的表达式的类型。===是恒等，它会检查查表达式的值与类型是否相等。NULL,0,"0",array()使用==和false比较时，都是会返回true的，而使用===却不会</tips>
-    <note_id>hl-1</note_id>
+    <type>vulnfunc</type>
+    <funcname>intval</funcname>
+    <tips>intval()转换的时候，会将从字符串的开始进行转换知道遇到一个非数字的字符。即使出现无法转换的字符串，intval()不会报错而是返回0。</tips>
+    <note_id>-1</note_id>
 </rule>
