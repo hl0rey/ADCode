@@ -22,5 +22,5 @@ class AllRules:
             rs = []
             for xr in fs:
                 if xr.endswith(".xml"):
-                    rs.append(self.path+xr)
+                    rs.append(self.path + xr)
             return rs

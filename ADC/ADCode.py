@@ -13,7 +13,7 @@ class ADCode:
 
     def detect_type(self):
         type = self.rule.type.text
-        #print(type)
+        # print(type)
         if type == "vulnfunc":
             return 1
 
@@ -23,13 +23,13 @@ class ADCode:
         if type == "keywords":
             return 3
 
-        if type=="regmatchonce":
+        if type == "regmatchonce":
             return 4
 
         return False
 
     def vulnfunc(self):
-        #print("vulnfunc")
+        # print("vulnfunc")
         funcname = self.rule.funcname.text
         if "," in funcname:
             names = funcname.split(",")
@@ -47,9 +47,8 @@ class ADCode:
                 print("\n")
         return
 
-
     def regmatchall(self):
-        #print("reg")
+        # print("reg")
         regs = self.rule.regs.stripped_strings
         for ms in regs:
             if not re.search(ms, self.content):
@@ -61,17 +60,17 @@ class ADCode:
         return
 
     def keywords(self):
-        #print("keywords")
+        # print("keywords")
         key = self.rule.keywords.text
         if "," in key:
-            keys=key.split(",")
+            keys = key.split(",")
             for k in keys:
-                if self.content.find(k):
-                    print("发现关键词："+k+"\n")
+                if k in self.content:
+                    print("发现关键词：" + k + "\n")
                     output.printrule(self.rule)
                     print("\n")
         else:
-            if self.content.find(key):
+            if key in self.content:
                 print("发现关键词：" + key + "\n")
                 output.printrule(self.rule)
                 print("\n")
@@ -88,19 +87,19 @@ class ADCode:
 
         return
 
-
     def check(self):
-        #print("do check!\n")
+        # print("do check!\n")
         t = self.detect_type()
-        #print(t)
+        # print(t)
         if t == 1:
             self.vulnfunc()
         if t == 2:
             self.regmatchall()
         if t == 3:
             self.keywords()
-        if t==4:
+        if t == 4:
             self.regmatchonce()
+
 
 class output:
     def good(content):
@@ -115,12 +114,12 @@ class output:
         print("\n")
         print("[*] " + content)
 
-    def printrule(content):
+    def printrule(r):
         print("--------")
-        print("----bug_name:" + content.bug_name.text)
-        print("----id:" + content.id.text)
-        print("----author:" + content.author.text)
-        print("----tips:" + content.tips.text)
-        if not content.note_id.text=="-1":
-            print("----note_id:"+content.note_id.text)
+        print("----bug_name:" + r.bug_name.text)
+        print("----id:" + r.id.text)
+        print("----author:" + r.author.text)
+        print("----tips:" + r.tips.text)
+        if not r.note_id.text == "-1":
+            print("----note_id:" + r.note_id.text)
         print("--------")
