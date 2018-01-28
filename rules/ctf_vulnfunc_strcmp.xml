@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <hug_name>strcmp函数缺陷</hug_name>
+     <id>0</id>
+    <author>hl0rey</author>
+    <type>vulnfunc</type>
+    <funcname>strcmp</funcname>
+    <tips>当这个函数接受到了不符合的类型，这个函数将发生错误，但是在5.3之前的php中，显示了报错的警告信息后，将return 0 !!!! 也就是虽然报了错，但却判定其相等了。这对于使用这个函数来做选择语句中的判断的代码来说简直是一个致命的漏洞，当然，php官方在后面的版本中修复了这个漏洞，使得报错的时候函数不返回任何值。strcmp只会处理字符串参数，如果给个数组的话呢，就会返回NULL,而判断使用的是==，NULL==0是 bool(true)</tips>
+    <note_id>-1</note_id>
+</rule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <hug_name>php hash函数缺陷</hug_name>
+     <id>0</id>
+    <author>hl0rey</author>
+    <type>vulnfunc</type>
+    <funcname>md5,sha1</funcname>
+    <tips>=== 会比较类型，比如bool sha1()函数和md5()函数存在着漏洞，sha1()函数默认的传入参数类型是字符串型，那要是给它传入数组呢会出现错误，使sha1()函数返回错误，也就是返回false，这样一来===运算符就可以发挥作用了，需要构造username和password既不相等，又同样是数组类型。</tips>
+    <note_id>-1</note_id>
+</rule>

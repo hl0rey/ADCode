@@ -96,8 +96,9 @@ class output:
 
     def printrule(content):
         print("--------")
-        print("----名称:" + content.bug_name.text)
+        print("----bug_name:" + content.bug_name.text)
         print("----id:" + content.id.text)
-        print("----作者:" + content.author.text)
+        print("----author:" + content.author.text)
         print("----tips:" + content.tips.text)
+        print("----note_id:"+content.note_id.text)
         print("--------")
