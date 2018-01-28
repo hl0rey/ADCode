@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rule>
+    <bug_name>十六进制转换问题</bug_name>
+     <id>3</id>
+    <author>hl0rey</author>
+    <type>regmatchonce</type>
+    <regs>
+        <reg>\d+==\d+e\d+</reg>
+        <reg>\d+==0x\d+</reg>
+        <reg>\d+e\d+==\d+</reg>
+        <reg>0x\d+==\d+</reg>
+    </regs>
+    <tips>删除cookies或者删除cookies的值</tips>
+    <note_id>hl-2</note_id>
+</rule>
