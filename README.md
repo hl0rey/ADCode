@@ -1,5 +1,5 @@
 # ADCode
-一个用python实现的代码审计学习笔记。
+python实现的代码审计学习笔记，代码审计的辅助工具。
 
 ## requirement
 pyperclip 访问剪贴板的库
