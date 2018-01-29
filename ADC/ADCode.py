@@ -3,14 +3,17 @@
 import re
 import rules.rulesutils
 
-
+#实现审计功能的核心类
 class ADCode:
+    #传入代码的内容
     def __init__(self, content):
         self.content = content
 
+    #载入规则
     def load(self, rule):
         self.rule = rules.rulesutils.Rule(rule).get_rule()
 
+    #判断插件的类型
     def detect_type(self):
         type = self.rule.type.text
         # print(type)
@@ -28,6 +31,7 @@ class ADCode:
 
         return False
 
+    #vulnfunc 类型的审计
     def vulnfunc(self):
         # print("vulnfunc")
         funcname = self.rule.funcname.text
@@ -47,6 +51,7 @@ class ADCode:
                 print("\n")
         return
 
+    # regmatchall 类型的审计
     def regmatchall(self):
         # print("reg")
         regs = self.rule.regs.stripped_strings
@@ -59,6 +64,7 @@ class ADCode:
         print("\n")
         return
 
+    # keywords 类型的审计
     def keywords(self):
         # print("keywords")
         key = self.rule.keywords.text
@@ -77,6 +83,7 @@ class ADCode:
 
         return
 
+    # regmatchonce 类型的审计
     def regmatchonce(self):
         regs = self.rule.regs.stripped_strings
         for ms in regs:
@@ -87,6 +94,7 @@ class ADCode:
 
         return
 
+    #根据不同的类型，调用不同的类方法
     def check(self):
         # print("do check!\n")
         t = self.detect_type()
@@ -101,6 +109,7 @@ class ADCode:
             self.regmatchonce()
 
 
+#为了让输出好看一点而存在的类
 class output:
     def good(content):
         print("\n")
